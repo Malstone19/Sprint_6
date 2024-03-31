@@ -1,0 +1,1 @@
+{"uuid": "bf9c2e5a-18bc-4f29-8e12-9d1feca8c7bb", "children": ["592ca8aa-b4c6-4dd4-ae2d-f81a132a9bfd"], "befores": [{"name": "Переход на главную и создание объекта MainPage", "status": "passed", "start": 1711904065161, "stop": 1711904065752}], "start": 1711904065161, "stop": 1711904066015}
