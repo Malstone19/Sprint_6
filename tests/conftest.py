@@ -8,7 +8,7 @@ from pages.order_page import OrderPage
 
 @pytest.fixture(scope='function')
 @allure.title('Запуск драйвера (FireFox)')
-def driver():
+def driver(): 'dddd'
     options = webdriver.FirefoxOptions()
     options.add_argument("--width=1920")
     options.add_argument("--height=1080")
