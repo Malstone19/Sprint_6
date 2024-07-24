@@ -8,7 +8,7 @@ from pages.order_page import OrderPage
 
 @pytest.fixture(scope='function')
 @allure.title('Запуск драйвера (FireFox)')
-def driver(): 'dddd'
+def driver():
     options = webdriver.FirefoxOptions()
     options.add_argument("--width=1920")
     options.add_argument("--height=1080")
@@ -21,7 +21,7 @@ def driver(): 'dddd'
 
 
 @pytest.fixture(scope='function')
-@allure.title('Переход на главную и создание объекта MainPage')
+@allure.title('Переход на главную  и создание объекта MainPage')
 def main_page(driver):
     driver.get(data.MAIN_PAGE_URL)
     return MainPage(driver)
